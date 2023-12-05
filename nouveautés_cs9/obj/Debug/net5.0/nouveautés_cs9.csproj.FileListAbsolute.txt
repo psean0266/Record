@@ -1,0 +1,16 @@
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\bin\Debug\net5.0\nouveautés_cs9.exe
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\bin\Debug\net5.0\nouveautés_cs9.deps.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\bin\Debug\net5.0\nouveautés_cs9.runtimeconfig.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\bin\Debug\net5.0\nouveautés_cs9.runtimeconfig.dev.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\bin\Debug\net5.0\nouveautés_cs9.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\bin\Debug\net5.0\nouveautés_cs9.pdb
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.csproj.AssemblyReference.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.AssemblyInfoInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.AssemblyInfo.cs
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.csproj.CoreCompileInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\refint\nouveautés_cs9.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.pdb
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\nouveautés_cs9.genruntimeconfig.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\nouveautés_cs9\nouveautés_cs9\obj\Debug\net5.0\ref\nouveautés_cs9.dll
