@@ -14,12 +14,38 @@ namespace nouveautés_cs9
             Console.WriteLine("Nom: " + nom + " - Age: " + age + "ans");
         }
     }
-
+    /*
     record PersonneRecord
     {
         public string nom { get; set; }
         public int age { get; set; }
 
+        public void Afficher()
+        {
+            Console.WriteLine("Nom: " + nom + " - Age: " + age + "ans");
+        }
+
+        public PersonneRecord(string nom, int age)
+        {
+            this.nom = nom;
+            this.age = age;
+        }
+
+        public void Deconstruct(out string nom, out int age)
+        {
+            nom = this.nom;
+            age = this.age; 
+        }
+    } */
+    /* Immutable: Son état ne changera plus et il en Init du coté set */
+    record PersonneRecord(string nom, int age);
+
+    record PersonneAffichable: PersonneRecord
+    {
+        public PersonneAffichable(string nom, int age) : base(nom, age)
+        {
+
+        }
         public void Afficher()
         {
             Console.WriteLine("Nom: " + nom + " - Age: " + age + "ans");
@@ -89,24 +115,34 @@ namespace nouveautés_cs9
 
             Console.WriteLine("<-----------------------------------------------------AVEC Record---------------------------------------------------->");
 
-            var personne5 = new PersonneRecord() { nom = "toto", age = 20 };
-            var personne6 = new PersonneRecord() { nom = "toto", age = 20 };
+            var personne5 = new PersonneAffichable("toto", 20); //{ nom = "toto", age = 20 };
+                                                            //   var personne6 = new PersonneRecord() { nom = "toto", age = 20 };
 
-            personne6 = personne5 with { };
+            // personne6 = personne5 with { };
 
-            personne6 = personne5;
+            //  personne6 = personne5;
 
-           // personne6 = personne5 with {  }; // Cloner sans référence
-      //      personne6 = personne5 with { nom = "Tata" }; // cloner et ajouter une valeur
+            // personne6 = personne5 with {  }; // Cloner sans référence
+            //      personne6 = personne5 with { nom = "Tata" }; // cloner et ajouter une valeur
 
-        //    personne5.nom = "Tata";
+            //    personne5.nom = "Tata";
+
+          //  Console.WriteLine("nom " + personne5.nom);
+
+            var (nom, age) = personne5; // ça nous permet de récupérer toutes les valeurs ou champs en une fois grâce deconstructeur 
+                                        // même s'il n'est appelé implicitement
+
+            Console.WriteLine("nom " + personne5.nom);
+            Console.WriteLine("nom " +nom);
+            Console.WriteLine("nom " + age);
+
 
             personne5.Afficher();
-            personne6.Afficher();
+        //    personne6.Afficher();
 
-            Console.WriteLine(" Record : " + personne5.Equals(personne6));
+        //    Console.WriteLine(" Record : " + personne5.Equals(personne6));
 
-            Console.WriteLine( personne5 == personne6);  // ça test le contenu d'objet
+          //  Console.WriteLine( personne5 == personne6);  // ça test le contenu d'objet
 
 
             /* Types simples (int , float, char...) -> Value Type (valeur)
